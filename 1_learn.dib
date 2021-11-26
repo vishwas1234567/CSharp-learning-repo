@@ -1,0 +1,21 @@
+#!csharp
+
+Console.WriteLine("Hello World!");
+
+#!csharp
+
+var aFriend = "Jayme";
+Console.WriteLine(aFriend);
+
+#!csharp
+
+Console.WriteLine("Hello " + aFriend + "!");
+
+#!csharp
+
+aFriend = "string interpolation";
+Console.WriteLine($"Hello {aFriend}!");
+
+#!csharp
+
+Console.WriteLine("Playground");

@@ -1,0 +1,71 @@
+#!csharp
+
+string firstFriend = "Maria";
+string secondFriend = "Sophia";
+Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+
+#!csharp
+
+Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+
+#!csharp
+
+string greeting = "      Hello World!       ";
+Console.WriteLine($"[{greeting}]");
+
+string trimmedGreeting = greeting.TrimStart();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.TrimEnd();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.Trim();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+#!csharp
+
+string sayHello = "Hello World!";
+Console.WriteLine(sayHello);
+sayHello = sayHello.Replace("Hello", "Greetings");
+Console.WriteLine(sayHello);
+
+#!csharp
+
+Console.WriteLine("WhiSPer".ToUpper());
+Console.WriteLine("sHoUt".ToLower());
+
+#!csharp
+
+Console.WriteLine("supercalifragilisticexpialidocious");
+Console.WriteLine("       friendship bracelet     ");
+
+#!csharp
+
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+Console.WriteLine(songLyrics.Contains("greetings"));
+
+#!csharp
+
+#! dotnet
+
+#!csharp
+
+string songLyrics = "You say goodbye, and I say hello";
+Console.WriteLine(songLyrics.Contains("goodbye"));
+Console.WriteLine(songLyrics.Contains("greetings"));
+
+#!csharp
+
+string songLyrics = "You say goodbye, and I say hello";
+
+#!csharp
+
+String line1 = "You say yes, I say no";
+String line2 = "You say stop and I say go, go, go";
+String line3 = "Oh, no";
+String line4 = "You say goodbye and I say hello";
+String line5 = "Hello, hello";
+String line6 = "I don't know why you say goodbye, I say hello";
+Console.WriteLine(line1)

@@ -1,0 +1,67 @@
+#!csharp
+
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+
+#!csharp
+
+int c = a - b;
+Console.WriteLine(c);
+
+#!csharp
+
+int c = a * b;
+Console.WriteLine(c);
+
+#!csharp
+
+int c = a / b;
+Console.WriteLine(c);
+
+#!csharp
+
+int a = 5;
+int b = 4;
+int c = 2;
+int d = a + b * c;
+Console.WriteLine(d);
+
+#!csharp
+
+int d = (a + b) * c;
+Console.WriteLine(d);
+
+#!csharp
+
+int d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
+Console.WriteLine(d);
+
+#!csharp
+
+int a = 7;
+int b = 4;
+int c = 3;
+int d = (a + b) / c;
+Console.WriteLine(d);
+
+#!markdown
+
+# Some Floating Point Operations
+
+#!csharp
+
+decimal min = decimal.MinValue;
+decimal max = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min} to {max}");
+
+#!csharp
+
+double a = 1.0;
+double b = 3.0;
+Console.WriteLine(a / b);
+
+decimal c = 1.0M;
+decimal d = 3.0M;
+Console.WriteLine(c / d);

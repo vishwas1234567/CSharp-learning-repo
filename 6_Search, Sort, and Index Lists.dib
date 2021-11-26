@@ -1,0 +1,43 @@
+#!markdown
+
+# Search, Sort, and Index Lists
+
+Watch the full [C# 101 video](https://www.youtube.com/watch?v=NJ5ghiutzfY&list=PLdo4fOcmZ0oVxKLQCHpiUWun7vlJJvUiN&index=13) for this module.
+
+#!csharp
+
+using System;
+using System.Collections.Generic;
+var names = new List<string> { "Sophia", "Ana", "Jayme", "Bill" };
+string name = "Ana";
+var index = names.IndexOf(name);
+Console.WriteLine($"Found {name} at {index}");
+
+#!csharp
+
+var names = new List<string> { "Sophia", "Ana", "Jayme", "Bill" };
+string name = "Scott";
+var index = names.IndexOf(name);
+if(index == -1){
+    Console.WriteLine($"{name} not found");
+} else {
+    Console.WriteLine($"Found {names[index]} at {index}");
+}
+
+#!csharp
+
+var names = new List<string> { "Sophia", "Ana", "Jayme", "Bill" };
+Console.WriteLine("Pre Sorting:");
+foreach(var name in names )
+{
+    Console.WriteLine(name);
+}
+
+names.Sort();
+
+Console.WriteLine();
+Console.WriteLine("Post Sorting:");
+foreach(var name in names )
+{
+    Console.WriteLine(name);
+}

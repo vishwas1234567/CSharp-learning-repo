@@ -1,8 +1,9 @@
 #!csharp
 
-int a = 5;
-int b = 6;
-if (a + b > 10)
+int a = 50;
+int b = 60;
+Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();Console.Beep();
+if (a - b > 10)
     Console.WriteLine("The answer is greater than 10.");
 
 #!csharp
@@ -14,7 +15,7 @@ Console.WriteLine("This condition is " + outcome);
 
 int a = 5;
 int b = 3;
-if (a + b > 10)
+if (a - b > 10)
     Console.WriteLine("The answer is greater than 10");
 else
     Console.WriteLine("The answer is not greater than 10");

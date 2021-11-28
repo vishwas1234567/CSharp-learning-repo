@@ -15,8 +15,8 @@ Console.WriteLine($"Found {name} at {index}");
 
 #!csharp
 
-var names = new List<string> { "Sophia", "Ana", "Jayme", "Bill" };
-string name = "Scott";
+var names = new List<string> { "azdev", "jayashree", "vishwas", "the prof" };
+string name = "azdev";
 var index = names.IndexOf(name);
 if(index == -1){
     Console.WriteLine($"{name} not found");

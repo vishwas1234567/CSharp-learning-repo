@@ -1,21 +1,33 @@
 #!csharp
 
-Console.WriteLine("Hello World!");
+Console.WriteLine("Hello World! from Azdev india");
 
 #!csharp
 
-var aFriend = "Jayme";
+var setFriend = "Jayashree";
 Console.WriteLine(aFriend);
 
 #!csharp
 
-Console.WriteLine("Hello " + aFriend + "!");
+aFriend
 
 #!csharp
 
-aFriend = "string interpolation";
-Console.WriteLine($"Hello {aFriend}!");
+setFriend
 
 #!csharp
 
-Console.WriteLine("Playground");
+Console.WriteLine("Hello " + setFriend + "!");
+
+#!csharp
+
+setFriend = "sandeep jayashree vishwas";
+Console.WriteLine($"Hello {setFriend}");
+
+#!csharp
+
+setFriend
+
+#!csharp
+
+Console.WriteLine("vishwas");

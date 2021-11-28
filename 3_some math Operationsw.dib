@@ -1,6 +1,6 @@
 #!csharp
 
-int a = 18;
+int a = 180;
 int b = 6;
 int c = a + b;
 Console.WriteLine(c);
@@ -22,10 +22,20 @@ Console.WriteLine(c);
 
 #!csharp
 
-int a = 5;
-int b = 4;
-int c = 2;
-int d = a + b * c;
+int a = 50;
+int b = 40;
+int c = 20;
+// int d = a / b * c;
+float d = a / b * c;
+Console.WriteLine(d);
+
+#!csharp
+
+float a= 50;
+float b = 40;
+float c = 20;
+float d = a / b * c;
+// float d = a / b * c;
 Console.WriteLine(d);
 
 #!csharp

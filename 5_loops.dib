@@ -9,12 +9,12 @@ while (counter < 10)
 
 #!csharp
 
-int counter = 0;
+double counter = 0.1;
 do
 {
   Console.WriteLine($"Hello World! The counter is {counter}");
   counter++;
-} while (counter < 10);
+} while (counter <= 10);
 
 #!csharp
 

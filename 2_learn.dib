@@ -1,8 +1,16 @@
 #!csharp
 
-string firstFriend = "Maria";
-string secondFriend = "Sophia";
+string firstFriend = "vishwas";
+string secondFriend = "jayashree";
 Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+
+#!csharp
+
+string a = $"we are friends {firstFriend} and {secondFriend}";
+
+#!csharp
+
+a
 
 #!csharp
 
@@ -11,8 +19,9 @@ Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.")
 
 #!csharp
 
-string greeting = "      Hello World!       ";
+string greeting = "  vishwas                  Hello World!       ";
 Console.WriteLine($"[{greeting}]");
+Console.WriteLine($"{greeting.Length}");
 
 string trimmedGreeting = greeting.TrimStart();
 Console.WriteLine($"[{trimmedGreeting}]");
@@ -52,8 +61,8 @@ Console.WriteLine(songLyrics.Contains("greetings"));
 
 #!csharp
 
-string songLyrics = "You say goodbye, and I say hello";
-Console.WriteLine(songLyrics.Contains("goodbye"));
+string songLyrics = "You say goodbye, and  I say hello vishwas";
+Console.WriteLine(songLyrics.Contains("   I say hello vishwas"));
 Console.WriteLine(songLyrics.Contains("greetings"));
 
 #!csharp
